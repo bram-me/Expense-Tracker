@@ -1,0 +1,27 @@
+{
+  "name": "expense-trackers",
+  "version": "1.0.0",
+  "description": "Expense Tracker Application",
+  "main": "models/server.js",
+  "scripts": {
+    "start": "node models/server.js",
+    "dev": "nodemon models/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.11.0",
+    "nodemailer": "^6.9.14",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "author": "Bramwel Vasaka",
+  "license": "ISC"
+}
